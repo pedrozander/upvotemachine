@@ -13,10 +13,10 @@ config :upvotemachine,
 # Configures the endpoint
 config :upvotemachine, UpvotemachineWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "wbL8f1cO6Pu68JmUm4m4YELtv4y6oEDWf2PuNmx7rs4v48RYRpNwCmeLsRN6CRbi",
+  secret_key_base: "egbYf4BoQNVurzWsgU48FsPT6rkdRf980YBFtlVk3rrL+p5S6QiTxMZWuvhwBgAH",
   render_errors: [view: UpvotemachineWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Upvotemachine.PubSub,
-  live_view: [signing_salt: "qqKLuAaF"]
+  live_view: [signing_salt: "4+vmeioj"]
 
 # Configures Elixir's Logger
 config :logger, :console,

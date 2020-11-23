@@ -7,7 +7,7 @@ defmodule UpvotemachineWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_upvotemachine_key",
-    signing_salt: "dLWTguFh"
+    signing_salt: "yyFrmTPH"
   ]
 
   socket "/socket", UpvotemachineWeb.UserSocket,

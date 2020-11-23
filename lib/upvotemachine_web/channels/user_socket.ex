@@ -3,6 +3,7 @@ defmodule UpvotemachineWeb.UserSocket do
 
   ## Channels
   # channel "room:*", UpvotemachineWeb.RoomChannel
+  channel "upvotes:*", UpvotemachineWeb.UpvotesChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After
